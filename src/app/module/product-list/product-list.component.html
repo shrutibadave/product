@@ -1,0 +1,16 @@
+<div>
+    <div class="row no-gutters">
+        <div class="col-md-2 mb-2" *ngFor="let product of data">
+            <div class="card">
+                <img class="card-img-top" [src]="product.thumbnail" alt="{{ product.title }}">
+                <div class="card-body">
+                    <h5 class="card-title">{{ product.title }}</h5>
+                    <p class="card-text">{{ product.description }}</p>
+                    <p class="card-text"><strong>Price:</strong> ${{ product.price }}</p>
+                    <p class="card-text"><strong>Rating:</strong> {{ product.rating }}</p>
+                    <a class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

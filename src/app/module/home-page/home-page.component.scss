@@ -1,0 +1,21 @@
+::ng-deep .navbar {
+    position: relative !important;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    width:max-content
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 20px;
+}
+
+.product-list-container {
+    width: 100%; 
+    max-width: 1200px;
+    padding: 20px;
+    box-sizing: border-box;
+}
